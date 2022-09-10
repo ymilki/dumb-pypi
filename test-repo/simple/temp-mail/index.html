@@ -5,26 +5,40 @@
     </head>
     <body>
         <h1>temp-mail</h1>
-        <p>Latest version: 0.2</p>
+        <p>
+            Latest version:
+            <input
+                type="text"
+                value="temp-mail==0.2"
+                id="requirement"
+                style="font-family: monospace; width: 14ch;"
+                readonly="readonly"
+            />
+        </p>
         
-            <p>Generated on 2020-10-07 17:51:00.</p>
+            <p>Generated on 2022-09-10 01:11:47.</p>
         
         <ul>
             
                 <li>
                     <a
-                        href="http://just.an.example/temp-mail-0.2.tar.gz#md5=cab820795c38731ff47bf6e349908da2"
+                        href="http://just.an.example/temp-mail-0.2.tar.gz#md5=6c4dc0715922f0896e42efbb1b0a4a95"
                     >temp-mail-0.2.tar.gz</a>
-                    (0.2, 2012-11-10 20:24:04, nobody)
+                    (0.2, 2012-07-24 20:49:17, proxy)
                 </li>
             
                 <li>
                     <a
-                        href="http://just.an.example/temp-mail-0.1.tar.gz#md5=163992958437ca86fd12e2ca38929f95"
+                        href="http://just.an.example/temp-mail-0.1.tar.gz#md5=be641fc5e673f9b5e135b1834579966e"
                     >temp-mail-0.1.tar.gz</a>
-                    (0.1, 2015-05-27 07:02:37, daemon)
+                    (0.1, 2002-04-01 12:49:14, messagebus)
                 </li>
             
         </ul>
+
+        <script>
+            document.getElementById('requirement').onfocus = (e) => e.target.select();
+        </script>
     </body>
 </html>
+

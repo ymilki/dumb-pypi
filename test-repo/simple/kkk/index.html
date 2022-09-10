@@ -5,26 +5,40 @@
     </head>
     <body>
         <h1>kkk</h1>
-        <p>Latest version: 0.0.2</p>
+        <p>
+            Latest version:
+            <input
+                type="text"
+                value="kkk==0.0.2"
+                id="requirement"
+                style="font-family: monospace; width: 10ch;"
+                readonly="readonly"
+            />
+        </p>
         
-            <p>Generated on 2020-10-07 17:51:00.</p>
+            <p>Generated on 2022-09-10 01:11:47.</p>
         
         <ul>
             
                 <li>
                     <a
-                        href="http://just.an.example/kkk-0.0.2.zip#md5=c6a8ef277fab62bcb966d9f7f6569812"
+                        href="http://just.an.example/kkk-0.0.2.zip#md5=89e1212bf75b51e66a84d2159643f972"
                     >kkk-0.0.2.zip</a>
-                    (0.0.2, 2005-08-01 05:53:32, www-data)
+                    (0.0.2, 2008-08-12 05:55:39, systemd-resolve)
                 </li>
             
                 <li>
                     <a
-                        href="http://just.an.example/kkk-0.0.1.zip#md5=262acaf37d09e4fae3b2d9b3e241ec96"
+                        href="http://just.an.example/kkk-0.0.1.zip#md5=c34bb0e3dee837e36a98e723da3f694b"
                     >kkk-0.0.1.zip</a>
-                    (0.0.1, 2011-06-30 18:28:43, control)
+                    (0.0.1, 2011-12-14 21:52:32, daemon)
                 </li>
             
         </ul>
+
+        <script>
+            document.getElementById('requirement').onfocus = (e) => e.target.select();
+        </script>
     </body>
 </html>
+

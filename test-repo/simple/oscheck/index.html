@@ -5,19 +5,33 @@
     </head>
     <body>
         <h1>oscheck</h1>
-        <p>Latest version: 0.2</p>
+        <p>
+            Latest version:
+            <input
+                type="text"
+                value="oscheck==0.2"
+                id="requirement"
+                style="font-family: monospace; width: 12ch;"
+                readonly="readonly"
+            />
+        </p>
         
-            <p>Generated on 2020-10-07 17:51:00.</p>
+            <p>Generated on 2022-09-10 01:11:47.</p>
         
         <ul>
             
                 <li>
                     <a
-                        href="http://just.an.example/oscheck-0.2.tar.gz#md5=cbc851a213d7823a2ac5431012a5018f"
+                        href="http://just.an.example/oscheck-0.2.tar.gz#md5=63e5349f90bcb5b3cd2e22e1016ee4b9"
                     >oscheck-0.2.tar.gz</a>
-                    (0.2, 2008-01-05 09:19:03, rtkit)
+                    (0.2, 2013-10-30 21:22:59, proxy)
                 </li>
             
         </ul>
+
+        <script>
+            document.getElementById('requirement').onfocus = (e) => e.target.select();
+        </script>
     </body>
 </html>
+

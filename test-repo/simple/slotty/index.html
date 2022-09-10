@@ -5,19 +5,33 @@
     </head>
     <body>
         <h1>slotty</h1>
-        <p>Latest version: 0.1dev</p>
+        <p>
+            Latest version:
+            <input
+                type="text"
+                value="slotty==0.1dev"
+                id="requirement"
+                style="font-family: monospace; width: 14ch;"
+                readonly="readonly"
+            />
+        </p>
         
-            <p>Generated on 2020-10-07 17:51:00.</p>
+            <p>Generated on 2022-09-10 01:11:47.</p>
         
         <ul>
             
                 <li>
                     <a
-                        href="http://just.an.example/slotty-0.1dev.tar.gz#md5=81a2965237a4d6cc7e39d8e7d8b1ef0c"
+                        href="http://just.an.example/slotty-0.1dev.tar.gz#md5=3f261f2038a382cf96adab4b30154f9d"
                     >slotty-0.1dev.tar.gz</a>
-                    (0.1dev, 2002-03-06 17:11:10, gnats)
+                    (0.1dev, 2002-11-02 06:20:49, systemd-network)
                 </li>
             
         </ul>
+
+        <script>
+            document.getElementById('requirement').onfocus = (e) => e.target.select();
+        </script>
     </body>
 </html>
+

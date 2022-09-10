@@ -5,19 +5,33 @@
     </head>
     <body>
         <h1>cdbx</h1>
-        <p>Latest version: 0.1.0</p>
+        <p>
+            Latest version:
+            <input
+                type="text"
+                value="cdbx==0.1.0"
+                id="requirement"
+                style="font-family: monospace; width: 11ch;"
+                readonly="readonly"
+            />
+        </p>
         
-            <p>Generated on 2020-10-07 17:51:00.</p>
+            <p>Generated on 2022-09-10 01:11:47.</p>
         
         <ul>
             
                 <li>
                     <a
-                        href="http://just.an.example/cdbx-0.1.0.tar.gz#md5=a979e03d0ae357fc8b0a36bdc40759d6"
+                        href="http://just.an.example/cdbx-0.1.0.tar.gz#md5=1a3153be8a5a9137b41af1aba7240f76"
                     >cdbx-0.1.0.tar.gz</a>
-                    (0.1.0, 2010-05-25 15:02:07, sync)
+                    (0.1.0, 2012-04-14 10:52:01, messagebus)
                 </li>
             
         </ul>
+
+        <script>
+            document.getElementById('requirement').onfocus = (e) => e.target.select();
+        </script>
     </body>
 </html>
+

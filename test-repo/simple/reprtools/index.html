@@ -5,26 +5,40 @@
     </head>
     <body>
         <h1>reprtools</h1>
-        <p>Latest version: 0.1</p>
+        <p>
+            Latest version:
+            <input
+                type="text"
+                value="reprtools==0.1"
+                id="requirement"
+                style="font-family: monospace; width: 14ch;"
+                readonly="readonly"
+            />
+        </p>
         
-            <p>Generated on 2020-10-07 17:51:00.</p>
+            <p>Generated on 2022-09-10 01:11:47.</p>
         
         <ul>
             
                 <li>
                     <a
-                        href="http://just.an.example/reprtools-0.1.tar.gz#md5=ab9a15e29f4ca46251bba960464454dc"
+                        href="http://just.an.example/reprtools-0.1.tar.gz#md5=24f976a82948d484bf51d095b9be7515"
                     >reprtools-0.1.tar.gz</a>
-                    (0.1, 2013-10-03 22:15:49, man)
+                    (0.1, 2013-04-11 06:33:03, usbmux)
                 </li>
             
                 <li>
                     <a
-                        href="http://just.an.example/reprtools-0.0.post5-ac5a33a1b087.tar.gz#md5=05b31c0ee941d9e02f4ad2098af057d9"
+                        href="http://just.an.example/reprtools-0.0.post5-ac5a33a1b087.tar.gz#md5=350207daad5f7899b47c75b8699ea589"
                     >reprtools-0.0.post5-ac5a33a1b087.tar.gz</a>
-                    (0.0.post5-ac5a33a1b087, 2012-05-02 14:41:24, lp)
+                    (0.0.post5-ac5a33a1b087, 2005-08-31 07:20:45, dnsmasq)
                 </li>
             
         </ul>
+
+        <script>
+            document.getElementById('requirement').onfocus = (e) => e.target.select();
+        </script>
     </body>
 </html>
+

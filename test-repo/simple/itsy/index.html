@@ -5,19 +5,33 @@
     </head>
     <body>
         <h1>itsy</h1>
-        <p>Latest version: 0.1</p>
+        <p>
+            Latest version:
+            <input
+                type="text"
+                value="itsy==0.1"
+                id="requirement"
+                style="font-family: monospace; width: 9ch;"
+                readonly="readonly"
+            />
+        </p>
         
-            <p>Generated on 2020-10-07 17:51:00.</p>
+            <p>Generated on 2022-09-10 01:11:47.</p>
         
         <ul>
             
                 <li>
                     <a
-                        href="http://just.an.example/itsy-0.1.tar.gz#md5=231dc3595dc65b3e170041d3c7d17121"
+                        href="http://just.an.example/itsy-0.1.tar.gz#md5=40288eac3bd596f62a90596fdc017d55"
                     >itsy-0.1.tar.gz</a>
-                    (0.1, 2010-12-25 14:04:56, gnats)
+                    (0.1, 2007-03-24 07:26:23, proxy)
                 </li>
             
         </ul>
+
+        <script>
+            document.getElementById('requirement').onfocus = (e) => e.target.select();
+        </script>
     </body>
 </html>
+

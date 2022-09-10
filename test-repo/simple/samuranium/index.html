@@ -5,26 +5,40 @@
     </head>
     <body>
         <h1>samuranium</h1>
-        <p>Latest version: 0.0.1</p>
+        <p>
+            Latest version:
+            <input
+                type="text"
+                value="samuranium==0.0.1"
+                id="requirement"
+                style="font-family: monospace; width: 17ch;"
+                readonly="readonly"
+            />
+        </p>
         
-            <p>Generated on 2020-10-07 17:51:00.</p>
+            <p>Generated on 2022-09-10 01:11:47.</p>
         
         <ul>
             
                 <li>
                     <a
-                        href="http://just.an.example/samuranium-0.0.1.tar.gz#md5=8729bb528fe7fcfc70e6ee8b12bff1c7"
+                        href="http://just.an.example/samuranium-0.0.1.tar.gz#md5=f4be23817793b571459e485c2c1ea004"
                     >samuranium-0.0.1.tar.gz</a>
-                    (0.0.1, 2017-07-23 02:35:50, list)
+                    (0.0.1, 2016-05-12 14:25:02, list)
                 </li>
             
                 <li>
                     <a
-                        href="http://just.an.example/samuranium-0.0.1-py2.py3-none-any.whl#md5=d2f5b16e6380ad9171c8f20c393d9c50"
+                        href="http://just.an.example/samuranium-0.0.1-py2.py3-none-any.whl#md5=73be14ab776c9ecdfaaf4bb2a59d3f86"
                     >samuranium-0.0.1-py2.py3-none-any.whl</a>
-                    (0.0.1, 2015-02-02 02:52:35, systemd-resolve)
+                    (0.0.1, 2017-05-19 08:20:15, systemd-timesync)
                 </li>
             
         </ul>
+
+        <script>
+            document.getElementById('requirement').onfocus = (e) => e.target.select();
+        </script>
     </body>
 </html>
+

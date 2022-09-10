@@ -5,26 +5,40 @@
     </head>
     <body>
         <h1>gitshelve</h1>
-        <p>Latest version: 0.1.1</p>
+        <p>
+            Latest version:
+            <input
+                type="text"
+                value="gitshelve==0.1.1"
+                id="requirement"
+                style="font-family: monospace; width: 16ch;"
+                readonly="readonly"
+            />
+        </p>
         
-            <p>Generated on 2020-10-07 17:51:00.</p>
+            <p>Generated on 2022-09-10 01:11:47.</p>
         
         <ul>
             
                 <li>
                     <a
-                        href="http://just.an.example/gitshelve-0.1.1.tar.gz#md5=aab3d4b3180749d50f4990893186b2a6"
+                        href="http://just.an.example/gitshelve-0.1.1.tar.gz#md5=245e8ac90f8b98351b85557376b27393"
                     >gitshelve-0.1.1.tar.gz</a>
-                    (0.1.1, 2009-10-01 00:28:12, backup)
+                    (0.1.1, 2011-12-08 20:25:29, games)
                 </li>
             
                 <li>
                     <a
-                        href="http://just.an.example/gitshelve-0.1.0.win-amd64.zip#md5=e82d3da845eb5905ba91043d8d9e0e2c"
+                        href="http://just.an.example/gitshelve-0.1.0.win-amd64.zip#md5=37fcfa29cb6abe58c1a3d0c758607775"
                     >gitshelve-0.1.0.win-amd64.zip</a>
-                    (0.1.0.win-amd64, 2003-12-06 12:37:23, control)
+                    (0.1.0.win-amd64, 2006-09-29 07:39:42, pulse)
                 </li>
             
         </ul>
+
+        <script>
+            document.getElementById('requirement').onfocus = (e) => e.target.select();
+        </script>
     </body>
 </html>
+

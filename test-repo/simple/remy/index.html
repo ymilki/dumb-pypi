@@ -5,19 +5,33 @@
     </head>
     <body>
         <h1>remy</h1>
-        <p>Latest version: 0.1.0</p>
+        <p>
+            Latest version:
+            <input
+                type="text"
+                value="remy==0.1.0"
+                id="requirement"
+                style="font-family: monospace; width: 11ch;"
+                readonly="readonly"
+            />
+        </p>
         
-            <p>Generated on 2020-10-07 17:51:00.</p>
+            <p>Generated on 2022-09-10 01:11:47.</p>
         
         <ul>
             
                 <li>
                     <a
-                        href="http://just.an.example/remy-0.1.0.tar.gz#md5=16dd563e57c1672f7055038d51d9d7bb"
+                        href="http://just.an.example/remy-0.1.0.tar.gz#md5=cc6b0ba383f30e13cb9ad3437f109ca0"
                     >remy-0.1.0.tar.gz</a>
-                    (0.1.0, 2012-01-02 15:38:56, statd)
+                    (0.1.0, 2015-09-25 22:40:25, gnats)
                 </li>
             
         </ul>
+
+        <script>
+            document.getElementById('requirement').onfocus = (e) => e.target.select();
+        </script>
     </body>
 </html>
+

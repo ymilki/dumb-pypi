@@ -5,19 +5,33 @@
     </head>
     <body>
         <h1>toxgen</h1>
-        <p>Latest version: 0.1</p>
+        <p>
+            Latest version:
+            <input
+                type="text"
+                value="toxgen==0.1"
+                id="requirement"
+                style="font-family: monospace; width: 11ch;"
+                readonly="readonly"
+            />
+        </p>
         
-            <p>Generated on 2020-10-07 17:51:00.</p>
+            <p>Generated on 2022-09-10 01:11:47.</p>
         
         <ul>
             
                 <li>
                     <a
-                        href="http://just.an.example/toxgen-0.1.tar.gz#md5=25864b752bee8416f11a80ccb8ae2cc3"
+                        href="http://just.an.example/toxgen-0.1.tar.gz#md5=aa034eb14656678a594057d23cb66506"
                     >toxgen-0.1.tar.gz</a>
-                    (0.1, 2005-06-16 23:14:45, gnats)
+                    (0.1, 2015-07-02 02:01:11, control)
                 </li>
             
         </ul>
+
+        <script>
+            document.getElementById('requirement').onfocus = (e) => e.target.select();
+        </script>
     </body>
 </html>
+

@@ -5,19 +5,33 @@
     </head>
     <body>
         <h1>optional</h1>
-        <p>Latest version: 0.0.1</p>
+        <p>
+            Latest version:
+            <input
+                type="text"
+                value="optional==0.0.1"
+                id="requirement"
+                style="font-family: monospace; width: 15ch;"
+                readonly="readonly"
+            />
+        </p>
         
-            <p>Generated on 2020-10-07 17:51:00.</p>
+            <p>Generated on 2022-09-10 01:11:47.</p>
         
         <ul>
             
                 <li>
                     <a
-                        href="http://just.an.example/optional-0.0.1.tar.gz#md5=6d501d19483e06847f5fe5cd6ee0196c"
+                        href="http://just.an.example/optional-0.0.1.tar.gz#md5=5476dc7288672f29034f03b922f0b7c8"
                     >optional-0.0.1.tar.gz</a>
-                    (0.0.1, 2016-08-21 12:53:29, news)
+                    (0.0.1, 2008-10-30 04:08:13, bin)
                 </li>
             
         </ul>
+
+        <script>
+            document.getElementById('requirement').onfocus = (e) => e.target.select();
+        </script>
     </body>
 </html>
+

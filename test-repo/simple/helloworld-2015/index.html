@@ -5,19 +5,33 @@
     </head>
     <body>
         <h1>helloworld-2015</h1>
-        <p>Latest version: 1.0.0</p>
+        <p>
+            Latest version:
+            <input
+                type="text"
+                value="helloworld-2015==1.0.0"
+                id="requirement"
+                style="font-family: monospace; width: 22ch;"
+                readonly="readonly"
+            />
+        </p>
         
-            <p>Generated on 2020-10-07 17:51:00.</p>
+            <p>Generated on 2022-09-10 01:11:47.</p>
         
         <ul>
             
                 <li>
                     <a
-                        href="http://just.an.example/helloworld-2015-1.0.0.tar.gz#md5=a591ac73f09bee883545c95a446388ae"
+                        href="http://just.an.example/helloworld-2015-1.0.0.tar.gz#md5=fb471b55f04183185ba3a5d872c9517f"
                     >helloworld-2015-1.0.0.tar.gz</a>
-                    (1.0.0, 2007-10-18 15:03:29, messagebus)
+                    (1.0.0, 2007-10-25 09:41:28, mail)
                 </li>
             
         </ul>
+
+        <script>
+            document.getElementById('requirement').onfocus = (e) => e.target.select();
+        </script>
     </body>
 </html>
+

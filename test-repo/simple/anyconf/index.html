@@ -5,26 +5,40 @@
     </head>
     <body>
         <h1>anyconf</h1>
-        <p>Latest version: 0.1.0</p>
+        <p>
+            Latest version:
+            <input
+                type="text"
+                value="anyconf==0.1.0"
+                id="requirement"
+                style="font-family: monospace; width: 14ch;"
+                readonly="readonly"
+            />
+        </p>
         
-            <p>Generated on 2020-10-07 17:51:00.</p>
+            <p>Generated on 2022-09-10 01:11:47.</p>
         
         <ul>
             
                 <li>
                     <a
-                        href="http://just.an.example/anyconf-0.1.0.tar.gz#md5=281005f10bac0c7f483a0b283b08544a"
+                        href="http://just.an.example/anyconf-0.1.0.tar.gz#md5=240d51025233a367179c06cad2c1d0cd"
                     >anyconf-0.1.0.tar.gz</a>
-                    (0.1.0, 2006-09-12 12:10:31, rtkit)
+                    (0.1.0, 2011-09-29 01:51:38, nobody)
                 </li>
             
                 <li>
                     <a
-                        href="http://just.an.example/anyconf-0.1.0-py2.6.egg#md5=fd80be80ae70d41863792d64a64ae994"
+                        href="http://just.an.example/anyconf-0.1.0-py2.6.egg#md5=2fcd78503e903151c9467f8128c03c7e"
                     >anyconf-0.1.0-py2.6.egg</a>
-                    (0.1.0-py2.6, 2015-09-02 11:56:44, daemon)
+                    (0.1.0-py2.6, 2007-03-05 06:19:00, dnsmasq)
                 </li>
             
         </ul>
+
+        <script>
+            document.getElementById('requirement').onfocus = (e) => e.target.select();
+        </script>
     </body>
 </html>
+

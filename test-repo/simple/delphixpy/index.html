@@ -5,26 +5,40 @@
     </head>
     <body>
         <h1>delphixpy</h1>
-        <p>Latest version: 1.8.0.0</p>
+        <p>
+            Latest version:
+            <input
+                type="text"
+                value="delphixpy==1.8.0.0"
+                id="requirement"
+                style="font-family: monospace; width: 18ch;"
+                readonly="readonly"
+            />
+        </p>
         
-            <p>Generated on 2020-10-07 17:51:00.</p>
+            <p>Generated on 2022-09-10 01:11:47.</p>
         
         <ul>
             
                 <li>
                     <a
-                        href="http://just.an.example/delphixpy-1.8.0.0.tar.gz#md5=ce33c65583cea5ab97a3c805fd012004"
+                        href="http://just.an.example/delphixpy-1.8.0.0.tar.gz#md5=b41c8436ee54a355699060fdd3664e5c"
                     >delphixpy-1.8.0.0.tar.gz</a>
-                    (1.8.0.0, 2002-03-19 05:50:24, usbmux)
+                    (1.8.0.0, 2011-08-15 10:19:34, bin)
                 </li>
             
                 <li>
                     <a
-                        href="http://just.an.example/delphixpy-1.7.0.0.tar.gz#md5=d4aa606cdbc7d723cd49d790ae1a3f5a"
+                        href="http://just.an.example/delphixpy-1.7.0.0.tar.gz#md5=fb7a015749529f2109375bb4e4f420bc"
                     >delphixpy-1.7.0.0.tar.gz</a>
-                    (1.7.0.0, 2014-06-04 08:21:26, usbmux)
+                    (1.7.0.0, 2011-06-02 16:50:54, messagebus)
                 </li>
             
         </ul>
+
+        <script>
+            document.getElementById('requirement').onfocus = (e) => e.target.select();
+        </script>
     </body>
 </html>
+

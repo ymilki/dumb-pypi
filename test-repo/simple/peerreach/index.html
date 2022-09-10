@@ -5,26 +5,40 @@
     </head>
     <body>
         <h1>peerreach</h1>
-        <p>Latest version: 0.2</p>
+        <p>
+            Latest version:
+            <input
+                type="text"
+                value="peerreach==0.2"
+                id="requirement"
+                style="font-family: monospace; width: 14ch;"
+                readonly="readonly"
+            />
+        </p>
         
-            <p>Generated on 2020-10-07 17:51:00.</p>
+            <p>Generated on 2022-09-10 01:11:47.</p>
         
         <ul>
             
                 <li>
                     <a
-                        href="http://just.an.example/peerreach-0.2.tar.gz#md5=ec0cb3b6cf098c2316b765008fe46b73"
+                        href="http://just.an.example/peerreach-0.2.tar.gz#md5=f8483b0030fbd8f3615fda1064340b3a"
                     >peerreach-0.2.tar.gz</a>
-                    (0.2, 2015-09-11 23:17:15, _apt)
+                    (0.2, 2003-03-03 06:14:48, puppet)
                 </li>
             
                 <li>
                     <a
-                        href="http://just.an.example/peerreach-0.1.tar.gz#md5=618a4043ec5c60c54bb005dbd7915885"
+                        href="http://just.an.example/peerreach-0.1.tar.gz#md5=7404348f75424268e51bef5ee8e7a2cc"
                     >peerreach-0.1.tar.gz</a>
-                    (0.1, 2015-04-25 13:48:21, pulse)
+                    (0.1, 2005-02-01 07:44:42, list)
                 </li>
             
         </ul>
+
+        <script>
+            document.getElementById('requirement').onfocus = (e) => e.target.select();
+        </script>
     </body>
 </html>
+

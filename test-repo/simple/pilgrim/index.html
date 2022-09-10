@@ -5,19 +5,33 @@
     </head>
     <body>
         <h1>pilgrim</h1>
-        <p>Latest version: 201512</p>
+        <p>
+            Latest version:
+            <input
+                type="text"
+                value="pilgrim==201512"
+                id="requirement"
+                style="font-family: monospace; width: 15ch;"
+                readonly="readonly"
+            />
+        </p>
         
-            <p>Generated on 2020-10-07 17:51:00.</p>
+            <p>Generated on 2022-09-10 01:11:47.</p>
         
         <ul>
             
                 <li>
                     <a
-                        href="http://just.an.example/pilgrim-201512.tar.gz#md5=83ffda7315c5b2107eca0a3f35651c30"
+                        href="http://just.an.example/pilgrim-201512.tar.gz#md5=03a540049d8c12e1f482cd961e41ec81"
                     >pilgrim-201512.tar.gz</a>
-                    (201512, 2015-10-09 17:13:54, irc)
+                    (201512, 2016-05-03 16:10:04, sys)
                 </li>
             
         </ul>
+
+        <script>
+            document.getElementById('requirement').onfocus = (e) => e.target.select();
+        </script>
     </body>
 </html>
+

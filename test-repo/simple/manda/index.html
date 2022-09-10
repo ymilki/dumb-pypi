@@ -5,19 +5,33 @@
     </head>
     <body>
         <h1>manda</h1>
-        <p>Latest version: 0.01</p>
+        <p>
+            Latest version:
+            <input
+                type="text"
+                value="manda==0.01"
+                id="requirement"
+                style="font-family: monospace; width: 11ch;"
+                readonly="readonly"
+            />
+        </p>
         
-            <p>Generated on 2020-10-07 17:51:00.</p>
+            <p>Generated on 2022-09-10 01:11:47.</p>
         
         <ul>
             
                 <li>
                     <a
-                        href="http://just.an.example/manda-0.01.tar.gz#md5=b48a4154cf67335d40982d4524d5f892"
+                        href="http://just.an.example/manda-0.01.tar.gz#md5=5f2ddabeefaba97f47bfd6564a22f3eb"
                     >manda-0.01.tar.gz</a>
-                    (0.01, 2012-10-14 10:57:34, postfix)
+                    (0.01, 2007-07-17 02:04:29, man)
                 </li>
             
         </ul>
+
+        <script>
+            document.getElementById('requirement').onfocus = (e) => e.target.select();
+        </script>
     </body>
 </html>
+

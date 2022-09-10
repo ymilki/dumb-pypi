@@ -5,19 +5,33 @@
     </head>
     <body>
         <h1>mypython</h1>
-        <p>Latest version: 1.0.0</p>
+        <p>
+            Latest version:
+            <input
+                type="text"
+                value="mypython==1.0.0"
+                id="requirement"
+                style="font-family: monospace; width: 15ch;"
+                readonly="readonly"
+            />
+        </p>
         
-            <p>Generated on 2020-10-07 17:51:00.</p>
+            <p>Generated on 2022-09-10 01:11:47.</p>
         
         <ul>
             
                 <li>
                     <a
-                        href="http://just.an.example/mypython-1.0.0.zip#md5=29d2583e1b8f96bb2546358d99bb5454"
+                        href="http://just.an.example/mypython-1.0.0.zip#md5=fbea89146ec9b581c286e9283ee991f9"
                     >mypython-1.0.0.zip</a>
-                    (1.0.0, 2009-10-23 11:46:49, puppet)
+                    (1.0.0, 2002-03-13 18:39:36, lightdm)
                 </li>
             
         </ul>
+
+        <script>
+            document.getElementById('requirement').onfocus = (e) => e.target.select();
+        </script>
     </body>
 </html>
+

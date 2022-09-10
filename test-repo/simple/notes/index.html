@@ -5,19 +5,33 @@
     </head>
     <body>
         <h1>notes</h1>
-        <p>Latest version: 0.3.0</p>
+        <p>
+            Latest version:
+            <input
+                type="text"
+                value="notes==0.3.0"
+                id="requirement"
+                style="font-family: monospace; width: 12ch;"
+                readonly="readonly"
+            />
+        </p>
         
-            <p>Generated on 2020-10-07 17:51:00.</p>
+            <p>Generated on 2022-09-10 01:11:47.</p>
         
         <ul>
             
                 <li>
                     <a
-                        href="http://just.an.example/notes-0.3.0.tar.gz#md5=0ece32048770179ef357a8c8fd686864"
+                        href="http://just.an.example/notes-0.3.0.tar.gz#md5=eb30869f583e71ef3b842ef8fb08d1c9"
                     >notes-0.3.0.tar.gz</a>
-                    (0.3.0, 2004-04-03 03:41:55, systemd-timesync)
+                    (0.3.0, 2006-11-29 15:52:18, irc)
                 </li>
             
         </ul>
+
+        <script>
+            document.getElementById('requirement').onfocus = (e) => e.target.select();
+        </script>
     </body>
 </html>
+

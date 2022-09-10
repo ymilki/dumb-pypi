@@ -5,26 +5,40 @@
     </head>
     <body>
         <h1>ines</h1>
-        <p>Latest version: 0.1a2</p>
+        <p>
+            Latest version:
+            <input
+                type="text"
+                value="ines==0.1a2"
+                id="requirement"
+                style="font-family: monospace; width: 11ch;"
+                readonly="readonly"
+            />
+        </p>
         
-            <p>Generated on 2020-10-07 17:51:00.</p>
+            <p>Generated on 2022-09-10 01:11:47.</p>
         
         <ul>
             
                 <li>
                     <a
-                        href="http://just.an.example/ines-0.1a2.tar.gz#md5=a194a831e4deeae7303859617030dad3"
+                        href="http://just.an.example/ines-0.1a2.tar.gz#md5=754f4439164da451b70d5113e473cc24"
                     >ines-0.1a2.tar.gz</a>
-                    (0.1a2, 2009-05-06 09:20:41, libvirt-qemu)
+                    (0.1a2, 2004-03-27 04:03:55, gnats)
                 </li>
             
                 <li>
                     <a
-                        href="http://just.an.example/ines-0.1a1.tar.gz#md5=0f0d2a5a51084ced16ec75598c4ecc12"
+                        href="http://just.an.example/ines-0.1a1.tar.gz#md5=b27daf3d876653854ea28c75443d2175"
                     >ines-0.1a1.tar.gz</a>
-                    (0.1a1, 2015-07-21 16:00:42, list)
+                    (0.1a1, 2012-02-15 05:08:30, bin)
                 </li>
             
         </ul>
+
+        <script>
+            document.getElementById('requirement').onfocus = (e) => e.target.select();
+        </script>
     </body>
 </html>
+
